@@ -23,7 +23,8 @@ def main():
     team_stats = team_stats.sort_values(by=["win_percentage", "point_differential"], ascending=[False, False])
 
     # Display the top-ranked teams
-    print(team_stats.head(10))
+    # print(team_stats.head(10))
+    print(team_stats)
 
 def main2():
     # Load the dataset
